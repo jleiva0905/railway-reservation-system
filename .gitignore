@@ -1,0 +1,20 @@
+# Build output and local server state
+/build/
+/bin/
+/target/
+*.class
+*.war
+.metadata/
+Servers/
+*.log
+
+# Local credentials and configuration
+.env
+.env.*
+*.local.properties
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
